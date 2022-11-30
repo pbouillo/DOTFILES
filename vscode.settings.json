@@ -9,7 +9,9 @@
 		{
 			"editor.selectionBackground": "#13688f93",
 			"editor.selectionHighlightBackground": "#13688f93"
-		}
+		},
+        "terminal.selectionBackground": "#8a8104",
+        "terminal.selectionForeground": "#000000"
 	},
 
     "files.autoSave": "afterDelay",
@@ -27,6 +29,7 @@
     "editor.linkedEditing": true,
     "editor.suggest.insertMode": "replace",
     "editor.acceptSuggestionOnCommitCharacter": false,
+
 
     "explorer.autoReveal": false,
 
