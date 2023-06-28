@@ -8,11 +8,15 @@ fi
 
 export DISPLAY=$(ip route list default | awk '{print $3}'):0
 export LIBGL_ALWAYS_INDIRECT=0
-eval "$(oh-my-posh init zsh --config '/mnt/c/Users/pbouillo/Documents/OhMyPosh/themes/marcduiker.omp.json')"
-# ALIAS
+PROMPT='%n@%m%~%% '
 
+
+# ALIAS
 alias ll='ls -lah --color=auto'
-alias cl='clear'
+
+alias c="clear"
+alias gcc="cc -Wall -Werror -Wextra"
+alias c="clear"
 #
 
 
