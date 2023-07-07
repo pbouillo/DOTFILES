@@ -17,8 +17,8 @@
 
     "files.autoSave": "afterDelay",
     "files.insertFinalNewline": true,
-    "42header.email": "pbouillo@student.42heilbronn.de",
-    "42header.username": "pbouillo",
+    "42header.email": "",
+    "42header.username": "",
     "security.workspace.trust.untrustedFiles": "open",
 
     "editor.insertSpaces": false,
